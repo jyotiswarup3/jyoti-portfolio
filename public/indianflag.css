@@ -1,0 +1,93 @@
+.orange{
+    background-color: orange;
+    height:600px;
+    width: 100%;
+    position: absolute;
+}
+.white{
+    background-color: white;
+    height: 200px;
+    position: absolute;
+    top: 200px;
+    width: 100%;
+}
+.green{
+    background-color: green;
+    height: 200px;
+    position: absolute;
+    top: 400px;
+    width: 100%;
+}
+.blue{
+    border: 10px solid blue;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    position: relative;
+    left: 42%;
+}
+
+.wheel {
+	height: 190px;
+	width: 190px;
+	border: 5px solid darkblue;
+	border-radius: 50%;
+	position: relative;
+	left: 42%;
+}
+
+.wheel .line {
+	height: 100%;
+	width: 3px;
+	position: absolute;
+	left: 50%;
+	background: darkblue;
+}
+
+.line:nth-child(1) {
+	transform: rotate(15deg)
+}
+
+.line:nth-child(2) {
+	transform: rotate(30deg)
+}
+
+.line:nth-child(3) {
+	transform: rotate(45deg)
+}
+
+.line:nth-child(4) {
+	transform: rotate(60deg)
+}
+
+.line:nth-child(5) {
+	transform: rotate(75deg)
+}
+
+.line:nth-child(6) {
+	transform: rotate(90deg)
+}
+
+.line:nth-child(7) {
+	transform: rotate(105deg)
+}
+
+.line:nth-child(8) {
+	transform: rotate(120deg)
+}
+
+.line:nth-child(9) {
+	transform: rotate(135deg)
+}
+
+.line:nth-child(10) {
+	transform: rotate(150deg)
+}
+
+.line:nth-child(11) {
+	transform: rotate(165deg)
+}
+
+.line:nth-child(12) {
+	transform: rotate(180deg)
+}
